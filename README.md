@@ -4,7 +4,7 @@
 
 加上了fvtt的格式适配
 
-https://logpainter.kagangtuya.top
+可以在https://logpainter.kagangtuya.top 或者 https://logpainter.vercel.app/使用
 
 适用于赵骰、溯洄骰、塔骰、旧/新版PC QQ聊天记录导出、FVTT默认导出（星尘加）、本染色器导出的格式
 
