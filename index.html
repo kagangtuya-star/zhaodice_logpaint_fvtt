@@ -869,7 +869,7 @@ function startDecodeLog(){
 			return false
 		},function(unique){
 			// var re = new RegExp('^\[\\\([0-9]{1,2}/[0-9]{1,2}\\\)/\\\([0-9]{4}\\\), \\\([0-9]{1,2}\\\):\\\([0-9]{1,2}:[0-9]{1,2}\\\) \\\([AP]M\\\)\] \\\([\u4e00-\u9fa5_a-zA-Z0-9 ]+\\\)$','i');
-			var re = new RegExp('^\\[(\\d+/\\d+)/(\\d+), (\\d+)(:\\d+:\\d+) ([AP]M)\\] ([\u4e00-\u9fa5_a-zA-Z0-9 ]+\)$','i');
+			var re = new RegExp('^\\[(\\d+/\\d+)/(\\d+), (\\d+)(:\\d+:\\d+) ([AP]M)\\] (.*\)$','i');
 			math=logLine.match(re);//FVTT默认导出格式
 			if(math!=null){
 				console.log("FVTT默认导出格式");
